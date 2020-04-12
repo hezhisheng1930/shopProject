@@ -1,0 +1,36 @@
+main{
+    width:100%;
+  }
+  main ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-evenly;
+    justify-content: center
+  }
+  main ul li{
+  width:6rem;
+  box-sizing: border-box;
+   margin-right:0.4rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  margin-top:0.4rem;
+  }
+  main ul li img{
+    width: 100%;
+    display: block;
+    height: 4.8rem;
+  }
+  main ul li span{
+    font-size: 14px;
+    color: #f00;
+    font-weight: bold
+  }
+  main ul li del{
+    font-size: 13px;
+    color: rgb(90, 87, 87)
+  }

@@ -1,0 +1,75 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    max-width:30rem;
+    min-width: 12.8rem;
+    background: #f6f6f6;
+}
+.router-link-active i{
+    color: #08c;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+#app #bottom  .router-link-active i + span{
+    color: #08c;
+    font-weight: 700;
+}
+#app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#app #top{
+    width: 100%;
+    /* background: #f6f6f6; */
+}
+#app #bottom{
+    width: 100%;
+    height:1.76rem;
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+    display: flex;
+    background: #ccc;
+    max-width:30rem;
+    min-width: 12.8rem;
+}
+#app #bottom .router-link{
+    flex: 1;
+    /* background: #0f0; */
+    display: flex;
+    color: #4a4e46;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+#app #bottom .router-link span{
+    color:#4a4e46;
+    font-size:0.56rem;
+}
+#app #bottom .router-link i{
+    /* width: 0.8rem; */
+    font-size:0.6rem;
+}
+#app #bottom .router-link:last-of-type::after{
+    content: "1";
+    position: absolute;
+    width: 0.8rem;
+    height:0.8rem;
+    border-radius: 50%;
+    background: #f00;
+    text-align: center;
+    color: #fff;
+    top: 5px;
+    right:0.8rem;
+    line-height:0.8rem;
+    font-size: 0.68rem;
+}
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
